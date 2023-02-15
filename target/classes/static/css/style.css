@@ -1,0 +1,125 @@
+:root {
+    --caption-color: #3B5998;
+    --font-and-border-color: #444040;
+    font-family: Verdana, sans-serif;
+}
+
+.body {
+    margin: 0 10rem;
+}
+
+.header {
+    display: inline-flex;
+}
+
+.task-show .header {
+    font-weight: bold;
+}
+
+.task-show .header, .task-show .text {
+    width: 100%;
+    margin: 0;
+    border-bottom: 0.1rem solid black;
+    display: inline-flex;
+}
+
+p {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all .5s;
+}
+
+p:hover {
+    overflow: inherit;
+    text-overflow: inherit;
+    white-space: inherit;
+    height: auto;
+}
+
+.enter-register-box {
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 4rem;
+    position: absolute;
+    right: 12rem;
+}
+
+.nav-bar {
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    border: var(--font-and-border-color) 0.09rem solid;
+    border-radius: 0.5rem;
+}
+
+.nav-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+a {
+    color: var(--font-and-border-color);
+    text-decoration: none;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+.field {
+    padding: 1rem;
+}
+
+.task {
+    padding: 1rem 5rem;
+    border: 0.1rem solid blue;
+}
+
+.middle-part {
+    padding: 1rem 0;
+    margin: 3rem;
+}
+
+#text {
+    width: 100%;
+    height: 10rem
+}
+
+.task-add-form-box .header {
+    border-bottom: 0.2rem solid var(--font-and-border-color);
+    width: 100%;
+}
+
+.add-task {
+    padding: 0.3rem 1rem;
+    color: var(--caption-color);
+    font-weight: bold;
+}
+
+.task-add-form-box {
+    padding-bottom: 2rem;
+    border: 0.1rem solid var(--font-and-border-color);;
+    border-radius: 0.6rem;
+}
+
+.button-field {
+    text-align: center;
+}
