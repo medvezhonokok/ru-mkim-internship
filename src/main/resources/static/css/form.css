@@ -1,0 +1,78 @@
+/* form-box */
+.form-box {
+    border: 1px solid var(--font-and-border-color);
+    border-top-right-radius: var(--font-and-border-color);
+    border-top-left-radius: var(--font-and-border-color);
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.form-box .header {
+    border-bottom: 1px solid var(--font-and-border-color);
+    color: cornflowerblue;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.form-box .field {
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+.form-box .field .name {
+    width: 11rem;
+    float: left;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.form-box .field .value {
+    width: 15rem;
+    float: left;
+}
+
+.form-box .field input {
+    width: 100%;
+}
+
+.form-box .button-field {
+    margin: 1.5rem 1.5rem 1.5rem 12rem;
+}
+
+.form-box .button-field input {
+    padding: 0.1rem 1.5rem;
+}
+
+.form-box .error {
+    clear: both;
+    color: red;
+    font-size: 0.75rem;
+    margin-left: 12rem;
+}
+
+.enter-form-box {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 0 10rem;
+    border: 0.1rem var(--font-and-border-color) solid;
+}
+
+.value input {
+    width: 100%;
+}
+
+.registration-form-box {
+    margin: 0 10rem;
+    border: 1px solid var(--font-and-border-color);
+}
+
+.registration-form-box .body {
+    margin: 0;
+}
+
+.task-show {
+    overflow: hidden;
+    border: 0.1rem solid var(--caption-color);
+    border-radius: 0.3rem;
+    margin-bottom: 4rem;
+}
