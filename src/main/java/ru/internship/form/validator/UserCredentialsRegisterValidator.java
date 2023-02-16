@@ -9,6 +9,7 @@ import ru.internship.service.UserService;
 @Component
 public class UserCredentialsRegisterValidator implements Validator {
     private final UserService userService;
+
     public UserCredentialsRegisterValidator(UserService userService) {
         this.userService = userService;
     }
